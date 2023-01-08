@@ -1,0 +1,505 @@
+*{
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#navbar{
+   background-color: black;
+   /* margin-top: 20px; */
+   padding: 20px;
+   width: 100%;
+  
+}
+#icon{
+   color: skyblue;
+}
+
+
+#img1{
+   border-radius:30% 70% 70% 30%/30% 30% 70% 70%; 
+   height: 20em;
+   width: 20em;
+   margin-left: 5em;
+   margin-top: 5em;
+
+}
+#skills{
+   padding-top: 100px;
+   background-color: black;
+   color: white;
+
+}
+#btn-nav{
+   background-color: rgb(59, 58, 58);
+   margin-left: 40px;
+
+}
+#btn-nav:hover{
+background-color: rgb(153, 144, 144);
+}
+
+#content-div{
+   display: flex;
+   justify-content: space-evenly;
+   background-color: black;
+   padding: 20px;
+}
+
+.nav-link{
+   color: red;
+}
+
+#intro{
+   color: white;
+   margin-top: 80px;
+}
+#h-skill{
+   text-align: center;
+
+}
+#resume-link{
+   text-decoration: none;
+   color: rgb(172, 163, 163);
+
+}
+#resume{
+   padding: 5px;
+   border-style: none;
+   background-color: black;
+   border-radius: 5px;
+   box-shadow: 1px 1px 5px 0.2px rgb(196, 191, 191);
+   margin-top: 20px;
+
+}
+
+.progress{
+   width: 450px;
+}
+#h-quali{
+   /* margin-top: 20px; */
+   transform: translateY(50px);
+
+}
+span{
+   color: orange;
+}
+#type{
+   width: 15ch;
+   overflow: hidden;
+   white-space: nowrap;
+   animation: typing 2s steps(15) infinite;
+
+}
+@keyframes typing{
+   0%{
+      width: 0ch;
+   }
+   100%{
+      width: 15ch;
+   }
+}
+#t-s{
+
+   background: linear-gradient(skyblue,rgb(255, 0, 234),blue) ;
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+#tech-skills{
+   margin-left: 500px;
+   width: fit-content;
+   
+}
+#skill-btn{
+   width: 250px;
+   margin-left: 120px;
+
+
+}
+#education{
+   text-align: center;
+   background-color: black;
+   color: white;
+   padding-bottom: 40px;
+}
+#edu{
+   /* border: 2px solid white; */
+   margin-top: 10px;
+   /* box-shadow: 1px 1px 2px 1px gray; */
+   position: relative;
+   display: block;
+   justify-content: center;
+   background-color: rgb(124, 118, 118);
+  margin: 0 350px;
+  border-radius: 10px;
+}
+#form-data{
+   text-align: center;
+   /* background-color: lightgreen; */
+   padding: 20px;
+}
+#form{
+   background-color: black;
+   color: white;
+   padding: 40px;
+}
+#outlined-basic{
+border-radius: 5px;
+padding: 10px 20px;
+border-style: none;
+background-color: rgb(190, 179, 179);
+color: black;
+outline: none;
+}
+#contactme{
+   text-align:center;
+   background-color: black;
+   color: white;
+   padding: 15px;
+}
+#cont-me{
+   padding-top: 30px;
+}
+#contactId{
+   display: flex;
+   justify-content: space-evenly;
+}
+#con-me{
+   text-decoration: none;
+   color: rgb(172, 163, 163);
+}
+#abt{
+   /* background-color: orange; */
+   text-align: center;
+   margin-top: 10px;
+  
+}
+#about{
+   background-color: black;
+   color: white;
+   padding: 30px;
+
+}
+#comlete{
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   /* background-color: black; */
+   background-color: black;
+   background-image: url("./images/wave1.svg");
+
+}
+#exp{
+   width: 100px;
+ 
+   /* text-align: center; */
+   /* margin-left:100px; */
+   color: white;
+   
+
+}
+#footer{
+   text-align: center;
+   padding-bottom: 100px;
+   background-color: black;
+   background-image: url("./images/wave.svg");
+ 
+
+}
+#btn-foot{
+   margin-left: 15px;
+   border-radius: 10px;
+   color: white;
+}
+#a1-foot{
+   text-decoration: none;
+   margin-left: 15px;
+   color: white;
+
+
+}
+@media screen and (max-width:600px) {
+#content-div{
+   display: block;
+   background-color: black;
+   padding: 20px;
+   text-align: center;
+
+}
+span{
+   color: orange;
+}
+#t-skil{
+
+   background: linear-gradient(red,yellow,green) ;
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+#skill-btn{
+   width: 250px;
+   transform: translateX(-435px);
+
+
+}
+#front-end{
+   transform: translateX(-340px);
+
+}
+#back-end{
+   transform: translateX(-340px);
+
+}
+.progress{
+   width: 300px;
+}
+#education{
+   /* text-align: center; */
+   background-color: black;
+   display: flex;
+   color: white;
+   padding-bottom: 40px;
+   
+}
+#h-quali{
+   margin-top: 30px;
+   transform: translateX(-250px);
+
+}
+#edu{
+ text-align: center;
+ 
+
+   width: 400px;
+}
+
+#contactId{
+   display: block;
+   /* justify-content: space-evenly; */
+}
+#btn-nav{
+   background-color: rgb(59, 58, 58);
+   margin-left: 60px;
+
+}
+
+#btn-nav:hover{
+   background-color: rgb(153, 144, 144);
+   }
+}
+
+@media screen and (max-width:600px) and (min-width:320px) {
+   #content-div{
+      display: block;
+      background-color: black;
+      padding: 20px;
+      text-align: center;
+      font-size: 10px;
+   
+   }
+   #btn-nav{
+      background-color: rgb(153, 140, 140);
+      margin-left: 10px;
+      margin-top: 10px;
+      width: 50px;
+      padding: 0 40px;
+    }
+ .nav{
+      display: flex;
+
+    }
+    #navbar{
+    
+    }
+   
+   #btn-nav:hover{
+      background-color: rgb(153, 144, 144);
+      }
+   #img1{
+      height: 200px;
+      width: 200px;
+      transform: translateX(-30px);
+   }
+   span{
+      color: orange;
+   }
+   #t-skil{
+   
+      background: linear-gradient(red,yellow,green) ;
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+   }
+   
+   #skill-btn{
+      width: 300px;
+      transform: translateX(-600px);
+   
+   
+   }
+   #front-end{
+      transform: translateX(-440px);
+   
+   }
+   #back-end{
+      transform: translateX(-440px);
+   
+   }
+   .progress{
+      width: 200px;
+   }
+   #education{
+      /* text-align: center; */
+      background-color: black;
+      display: flex;
+      color: white;
+      padding-bottom: 40px;
+      
+   }
+   #h-quali{
+      margin-top: 30px;
+      transform: translateX(-280px);
+      font-size: 10px;
+   
+   }
+   #edu{
+    text-align: center;
+    width: 200px;
+   }
+   
+   #contactId{
+      display: block;
+      font-size: xx-small;
+      /* justify-content: space-evenly; */
+   }
+   #form-data{
+      color: black;
+      transform: translateX(-50px);
+      width: 0px;
+      }
+      #outlined-basic{
+         /* width: 200px;
+         height: 50px; */
+         font-size: 10px;
+      }
+      
+
+
+*{
+   font-size: 10px;
+
+}
+#footer{
+   padding-bottom: 0px;
+}
+   }
+
+   @media screen and (max-width:1180px) and (min-width:820px) {
+      #content-div{
+         display: block;
+         background-color: rgb(0, 0, 0);
+         padding: 20px;
+         text-align: center;
+         font-size: 10px;
+      
+      }
+      #btn-nav{
+         background-color: rgb(153, 140, 140);
+         margin-left: 10px;
+         margin-top: 10px;
+         width: 50px;
+         padding: 0 70px;
+       }
+    .nav{
+         display: flex;
+   
+       }
+       #navbar{
+       
+       }
+      
+      #btn-nav:hover{
+         background-color: rgb(153, 144, 144);
+         }
+      #img1{
+         height: 200px;
+         width: 200px;
+         transform: translateX(-30px);
+      }
+      span{
+         color: orange;
+         font-size: x-large;
+      }
+      #t-skil{
+      
+         background: linear-gradient(red,yellow,green) ;
+         background-clip: text;
+         -webkit-background-clip: text;
+         -webkit-text-fill-color: transparent;
+      }
+      
+      #skill-btn{
+         width: 300px;
+         transform: translateX(-360px);
+      
+      
+      }
+      #front-end{
+         transform: translateX(-240px);
+      
+      }
+      #back-end{
+         transform: translateX(-240px);
+      
+      }
+      .progress{
+         width: 300px;
+      }
+      #education{
+         /* text-align: center; */
+         background-color: black;
+         display: flex;
+         color: white;
+         padding-bottom: 40px;
+         
+      }
+      #h-quali{
+         margin-top: 30px;
+         transform: translateX(-230px);
+         font-size: 10px;
+      
+      }
+      #edu{
+       text-align: center;
+       width: 600px;
+
+      }
+      
+      #contactId{
+         display: block;
+         font-size: xx-small;
+         /* justify-content: space-evenly; */
+      }
+      #form-data{
+         color: black;
+         transform: translateX(250px);
+         width: 0px;
+         text-align: center;
+         }
+         #outlined-basic{
+            /* width: 200px;
+            height: 50px; */
+            font-size: 10px;
+         }
+         
+ 
+   
+   *{
+      font-size: 20px;
+   
+   }
+   #footer{
+      padding-bottom: 0px;
+   }
+      }
